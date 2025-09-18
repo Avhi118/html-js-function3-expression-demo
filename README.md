@@ -1,2 +1,21 @@
-# html-js-function3-expression-demo
-simple JavaScript function expression demo within an HTML page.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>declaring function </title>
+    <style>
+        .out{color: skyblue; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h2> Function with user-name </h2>
+    <p id="demo1" class="out"></p>
+    <script>
+        let greet= function(){
+            return "Hello students, How are you!!!";
+        }
+        document.getElementById("demo1").innerHTML=greet();
+    </script>
+</body>
+</html>
